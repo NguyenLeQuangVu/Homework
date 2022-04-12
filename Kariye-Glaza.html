@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <title>Bé Kariye Glaza</title>
+        <style>
+            .container{
+                height: 740px;
+                width: 450px;
+                background-color: rgb(165, 177, 173);
+                box-sizing: border-box;
+                border: 2px solid rgb(165, 177, 173);
+            }
+            .hair-short--black{
+                height: 430px;
+                width: 360px;
+                border-radius: 150px 150px 0px 0px;
+                background-color: black;
+                margin: auto;
+            }
+            .face{
+                height: 430px;
+                width: 280px;
+                border-radius: 135px;
+                background-color: rgb(255, 196, 163);
+                margin: 0px auto;
+            }
+            .face__forehead-hair-left--black{
+                height: 170px;
+                width: 100px;
+                background-color: black;
+                border-radius: 170px 0px 230px 0px;
+                position: absolute;
+                top: 20px;
+            }
+            .face__forehead-hair-right--brown{
+                position: absolute;
+                left: 140px;
+                height: 215px;
+                width: 250px;
+                background-color: rgb(66, 31, 31);
+                border-radius: 400px 900px 150px 909px;
+                z-index: 2;
+            }
+            .face__eye--left{
+                position: absolute;
+                top: 220px;
+                margin-left: 60px;
+                height: 47px;
+                width: 25px;
+                background-color: rgb(46, 11, 11);
+                border-radius: 50%;
+            }
+            .eye__iris--left{
+                position: absolute;
+                height: 15px;
+                width: 10px;
+                background-color: white;
+                border-radius: 50%;
+                left: 3px;
+                top: 5px;
+            }
+            .face__eye--right{
+                position: absolute;
+                top: 220px;
+                margin-left: 190px;
+                height: 47px;
+                width: 25px;
+                background-color: rgb(46, 11, 11);
+                border-radius: 50%;
+                z-index: 1;
+            }
+            .eye__iris--right{
+                position: absolute;
+                height: 15px;
+                width: 10px;
+                background-color: white;
+                border-radius: 50%;
+                left: 3px;
+                top: 5px;
+            }
+            .face__mouth{
+                position: absolute;
+                height: 61px;
+                width: 95px;
+                background-color: rgb(249, 109, 128);
+                left: 184px;
+                top: 329px;
+                z-index: 2;
+                border-radius: 0px 0px 43px 60px;
+                box-sizing: border-box;
+            }
+            .mouth__tongue{
+                position: absolute;
+                height: 20px;
+                width: 73px;
+                background-color: rgb(246, 168, 167);
+                border-radius: 70% 80% 30% 70% ;
+                left: 15px;
+                top: 29px;
+                transform:rotate(3deg)
+            }
+            .mouth__tongue-layout{
+                position: absolute;
+                height: 61px;
+                width: 93px;
+                background-color: transparent;
+                border-radius: 0px 0px 42px 60px;
+                border-bottom: 25px solid rgb(255, 196, 163);
+                top: -15px;
+            }
+            .face__hair--long--black{
+                height: 15px;
+                width: 320px;
+                background-color: black;
+                position: absolute;
+                left: 72
+            }
+            .body{
+                height: 200px;
+                width: 390px;
+                background-color: rgb(75, 142, 141);
+                margin-left: -14px;
+                margin-top: 30px ;
+                border-radius: 80% 80% 0% 0%;
+            }
+            .neck{
+                height: 70px;
+                width: 86px;
+                background-color: rgb(255, 167, 132);
+                position: absolute;
+                top: -6px ;
+                left: 118px ;
+                border-radius: 0% 0% 50% 50% ;
+            }
+            .body__shirt-button{
+                height: 25px;
+                width: 25px;
+                background-color: black;
+                border-radius: 100% ;
+                position: absolute ;
+                left: 220px ;
+                top: 519px ;
+                z-index: 3;
+            }
+            .hairline--long{
+                height: 250px;
+                width: 100px;
+                background-color: transparent;
+                border-radius: 35% ;
+                position: absolute ;
+                left: 78px ;
+                top: 7px ;
+                border-right: 8px solid white ;
+                transform:rotate(-40deg)
+            }
+            .hairline--short{
+                height: 100px;
+                width: 100px;
+                background-color: transparent;
+                border-radius: 10% ;
+                position: absolute ;
+                left: 86px ;
+                top: 154px ;
+                border-right: 6px solid white ;
+                transform:rotate(-42deg)
+            }
+            .hairline--top--short{
+                height: 50px;
+                width: 60px;
+                background-color: transparent;
+                border-radius: 15% ;
+                position: absolute ;
+                left: 75px ;
+                top: 15px ;
+                border-right: 5px solid white ;
+                transform: rotate(-56deg) ;
+            }
+            .tie{
+                height: 0;
+                width: 0;
+                border-top: 15px solid transparent;
+                border-bottom: 15px solid transparent;
+                border-left: 30px solid hotpink;
+                border-right: 30px solid hotpink;
+                position: absolute;
+                top: 38px;
+                left: -28px;
+                z-index: 3;
+                transform: rotate(-20deg)
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <div class="hair-short--black">
+                    <div class="face">
+                        <div class="face__forehead-hair-left--black"></div>
+                        <div class="face__forehead-hair-right--brown">
+                            <div class="hairline--long"></div>
+                            <div class="hairline--short"></div>
+                            <div class="hairline--top--short"></div>
+                            <div class="tie"></div>
+                        </div>
+                        <div class="face__eye--left">
+                            <div class="eye__iris--left"></div>
+                        </div>
+                        <div class="face__eye--right">
+                            <div class="eye__iris--right"></div>
+                        </div>
+                        <div class="face__mouth">
+                            <div class="mouth__tongue"></div>
+                            <div class="mouth__tongue-layout"></div>
+                        </div>
+                    </div>
+                    <div class="face__hair--long--black">
+                        <div class="neck"></div>
+                    </div>
+                    <div class="body">
+                        <div class="body__shirt-button"></div>
+                    </div>
+                    <br>
+                    <div>초~선생님</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
